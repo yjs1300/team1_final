@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\myproject\\manage.py",
+            "args": [
+                "runserver",
+                //"--noreload",
+                "127.0.0.1:80",
+                //https://stackoverflow.com/questions/58096897/how-to-debug-django-web-application-using-specific-port-localhost-in-visual-st
+            ],
+            "django": true,
+            "justMyCode": true
+        }
+    ],
+}
